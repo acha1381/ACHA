@@ -1,0 +1,90 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fafafa;
+  }
+  
+  .slideshow-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slideshow-image {
+    width: 100%; 
+    height: auto; 
+    transition: opacity 3s ease-in-out;
+    animation: fadeIn 1s; 
+  }
+  
+  .content-column {
+    width: 100%;
+    text-align: left; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center;
+  }
+  
+  .content-container {
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  
+.headlines,
+.about-us {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.headlines h2,
+.about-us h2 {
+  font-size: 28px; 
+  margin-bottom: 15px; 
+  color: #333; 
+}
+
+.headlines ul {
+  list-style: none;
+  padding: 0;
+}
+
+.headlines li {
+  margin-bottom: 8px;
+  font-size: 20px; 
+  color: #666; 
+  animation: fadeIn 3s;
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 1.6; 
+  color: #444; 
+  animation: fadeIn 2s;
+}
+
+
+.headlines {
+  border-bottom: 2px solid #ccc; 
+  padding-bottom: 15px;
+}
+
+
+.about-us {
+  font-style: italic; 
+  padding-left: 10px; 
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,56 @@
+.shipment-details {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .shipment-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .shipment-details form {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .shipment-details input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .shipment-details button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .shipment-details button:hover {
+    background-color: #0056b3;
+  }
+  
+  .shipment {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%; 
+    max-width: 400px; 
+  }
+  
+  .shipment p {
+    margin: 5px 0;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  

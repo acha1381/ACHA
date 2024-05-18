@@ -1,0 +1,62 @@
+.shipment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #20639b;
+}
+
+.main-column {
+  background-color: #fcfcfc;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.label-container {
+  margin-bottom: 5px;
+}
+
+.input-field {
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.select-field {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.city-effect {
+  margin-left: 10px;
+  font-style: italic;
+  color: #666;
+}
